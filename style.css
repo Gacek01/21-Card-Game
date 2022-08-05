@@ -1,0 +1,61 @@
+.row {
+  border: 3px solid;
+  margin: 10px 50px 10px 50px;
+  background-color: lightseagreen;
+}
+
+.cardsArea {
+  height: 500px;
+}
+
+#gameArea {
+  background-color: seagreen;
+  padding: 10px;
+}
+
+h5 {
+  text-align: center;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#playerArea, #dealerArea {
+  height: 160px;
+}
+
+#buttonArea {
+  text-align: center;
+}
+
+button {
+  height: 60px;
+  width: 100px;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border: 3px solid;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+div.card {
+  display: inline-block;
+  height: 100px;
+  width: 56px;
+  background-color: white;
+  border: 5px solid;
+  border-radius: 10px;
+  font-size: 48px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 5px 5px darkslategray;
+  transition: 1s;
+}
+
+div.covered {
+  background-color: grey;
+}
